@@ -37,16 +37,16 @@ def q4():
 def q5():
   #Write Assignment code here
   user_input = input("Enter an integer: ")
-  poo = int(user_input)
-  integer = (poo % 2 != 0)
-  print(f"Enter an integer: {poo}")
-  print(f"The integer {poo} is {not(integer)}.")
+  int1 = int(user_input)
+  CheckDivide2 = int1 % 2 == 0
+  print(f"The integer {int1} is {(CheckDivide2)}.")
+  
 
 #Do not edit code after this
-#Comment out the followwing code when running tests
+#Comment out the following code when running tests
 
-q1()
-q2()
-q3()
-q4()
-q5()
+# q1()
+# q2()
+# q3()
+# q4()
+# q5()
