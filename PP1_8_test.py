@@ -2,6 +2,7 @@ import os.path
 import sys
 import PP1_8
 
+
 def test_q1_1(capsys):
 
 	try:
@@ -441,4 +442,3 @@ def test_q5_5(capsys):
 	PP1_8.q5()
 	captured = capsys.readouterr()
 	assert captured.out == "Enter an integer: The integer -2 is True.\n"
-
